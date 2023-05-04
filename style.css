@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(153 219 229);;
+    overflow-x: hidden;
+}
+li {
+    list-style-type: none;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    margin: 0;
+}
+.btn {
+    background: #3F51B5;
+    border: none;
+    padding: 5px;
+    border-radius: 13px;
+    color: white;
+    text-transform: uppercase;  
+}
+.btn:hover{
+    color: black;
+    background-color: bisque;
+}
+input{
+    background-color: rgb(178, 214, 202);
+    padding: 8px;
+    border: 2px solid #1229ad;
+    color: black;
+    border-radius: 10px;
+}
+p{
+    font-size:17px;
+}
+h1{
+    font-size: 30px;
+}
+/*moile view*/
+/* .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    
+    /* grid-template-columns: 1fr 1fr; */
+}
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* .site-nav {
+margin: 0 10px;
+} */
+nav ul {
+    display: none;
+}
+nav h1{
+border-bottom: 2px solid white;
+    padding: 10px;
+}
+#welcome {
+    margin: 10px;
+}
+#portifolio {
+    margin: 10px;
+}
+#skills {
+    margin: 10px;
+}
+#contact {
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+}
+#skills li {
+    grid-column: span 4;
+    align-items: center;
+}
+ #contact {
+    padding: 10px;
+    background-color: #74cdd9;
+    overflow-x: hidden;
+
+}
+#contact h2,p {
+    text-align: center;
+}
+#contact form {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+#contact input {
+    width: 100%;
+    margin: 10px;
+}
+footer .social {
+    display: flex;
+    
+    
+
+} 
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:620px){
+
+
+
+}
